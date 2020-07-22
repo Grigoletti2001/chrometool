@@ -1,0 +1,21 @@
+  {
+    "name": "Chrome Extension",
+    "description": "Base Level Extension",
+    "version": "0.5",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "random.html",
+      "default_icon": "random.png"
+    }
+  },
+
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens random.html"
+    }
+  }
+}
